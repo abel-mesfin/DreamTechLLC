@@ -51,10 +51,10 @@ $large = $_POST['largeChoice'];
 
 if (isset($small)) {
     print("small");
-    header("Location: http://localhost:8888/Milestone9/cardInformation.php?purchase=small");
+    header("Location: https://dreamtechllc.azurewebsites.net/cardInformation.php?purchase=small");
 }elseif(isset($large)){
     print("large");
-    header("Location: http://localhost:8888/Milestone9/cardInfoLarge.php?purchase=large");
+    header("Location: https://dreamtechllc.azurewebsites.net/cardInfoLarge.php?purchase=large");
 
 }
 
