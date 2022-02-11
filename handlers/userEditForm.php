@@ -118,18 +118,18 @@ if(empty($first)){
         if($success == "Changed"){
             if(!empty($pwd)){
             $sql = "UPDATE users SET FIRST_NAME='".$first."', LAST_NAME='".$last."', EMAIL='".$email."', PASSWORD='".$pwd."', USERNAME='".$username."', admini='".$admin."' WHERE ID = ".$user_ID;
-                header("Location: http://localhost:8888/Milestone8/updateSuccess.html");
+                header("Location: https://dreamtechllc.azurewebsites.net/updateSuccess.html");
             }else{
                 $sql = "UPDATE users SET FIRST_NAME='".$first."', LAST_NAME='".$last."', EMAIL='".$email."', USERNAME='".$username."', admini='".$admin."' WHERE ID = ".$user_ID;
-                header("Location: http://localhost:8888/Milestone8/updateSuccess.html");
+                header("Location: https://dreamtechllc.azurewebsites.net/updateSuccess.html");
             }
         }elseif($success == "Same"){
             if(!empty($pwd)){
             $sql = "UPDATE users SET FIRST_NAME='".$first."', LAST_NAME='".$last."', EMAIL='".$email."', PASSWORD='".$pwd."', admini='".$admin."' WHERE ID = ".$user_ID;
-                header("Location: http://localhost:8888/Milestone8/updateSuccess.html");
+                header("Location: https://dreamtechllc.azurewebsites.net/updateSuccess.html");
             }else{
                 $sql = "UPDATE users SET FIRST_NAME='".$first."', LAST_NAME='".$last."', EMAIL='".$email."', admini='".$admin."' WHERE ID = ".$user_ID;
-                header("Location: http://localhost:8888/Milestone8/updateSuccess.html");
+                header("Location: https://dreamtechllc.azurewebsites.net/updateSuccess.html");
             }
         }
         $update = 1;
