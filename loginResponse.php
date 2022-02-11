@@ -13,7 +13,7 @@ include_once('myfuncs.php');
 <?php if(!empty(getUserId())): ?>
 <html>
 <head>
-<meta http-equiv="refresh" content="0; URL=http://localhost:8888/Milestone9/index.php" />
+<meta http-equiv="refresh" content="0; URL=https://dreamtechllc.azurewebsites.net" />
 
 
 <?php else: ?>
