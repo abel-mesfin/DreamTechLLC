@@ -39,7 +39,7 @@ if(empty($username)){
   echo "A Password is a required field and cannot be blank.". "<br>";
 }
 
-    $pass = MD5($pass)
+    $pass = MD5($pass);
     $sql = "SELECT ID, USERNAME, PASSWORD FROM users WHERE USERNAME='$username' AND BINARY PASSWORD= BINARY'$pass'";
     $result = $conn->query($sql);
     
