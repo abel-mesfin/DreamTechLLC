@@ -94,7 +94,7 @@ $vari = getUserId()?>
         </div> 
     </div>
 
-    <meta http-equiv="refresh" content="3; URL=http://localhost:8888/Milestone9/index.php" /> 
+    <meta http-equiv="refresh" content="3; URL=https://dreamtechllc.azurewebsites.net/" /> 
       
 </body>
     
