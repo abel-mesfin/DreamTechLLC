@@ -40,7 +40,7 @@ The modules purpose is to create a html form that shows the user the required fi
     <center>
         <h1> Account created successfully </h1>
             <div class="home">
-            <meta http-equiv="refresh" content="5; URL=http://localhost:8888/Milestone9/purchasePage.php" />    
+            <meta http-equiv="refresh" content="5; URL=https://dreamtechllc.azurewebsites.net/" />    
             <a href="index.php"><button>Main Menu</button></a>
             </div>
     </center>
